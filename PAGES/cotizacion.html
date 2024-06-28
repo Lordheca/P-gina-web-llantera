@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/IMAGES/car-services.png" type="image/x-icon">
+    <link rel="stylesheet" href="/STYLES/cotizacion.css">
+    <title>Cotización</title>
+</head>
+<body>
+    <header class="Head">
+        <img class="Head_img" src="/IMAGES/LOGO LLANTERA DEFINITIVO.webp" alt="Logo">
+        <h2 class="Head_title">Cotización</h2>
+    </header>
+    <main class="main">
+        <div class="Cont_text">
+            <h2 class="subt">Estamos para ayudarte</h2>
+            <p class="text">Rellena el siguiente formulario para empezar tu cotización</p>
+            <h2 class="subt">Horario de Atención <i class="fa-brands fa-whatsapp"></i></h2>
+            <p class="text">Lunes a Viernes de 09:00 a 18:00 hrs</p>
+            <p class="text">Sábados de 09:00 a 16:00 hrs</p>
+        </div>
+        <div class="Form">
+            <h2>Información Llanta</h2>
+            <label class="text" for="medida">Medida de la llanta: </label>
+            <input class="inputs" type="text" name="medida" id="medida" placeholder="ej. 175/7/R13">
+            <label class="text" for="marca">Marca(s) de preferencia: </label>
+            <input class="inputs" type="text" name="marca" id="marca" placeholder="ej. Euzkadi, Tornel, Michellin, etc." multiple>
+            <label class="text" for="precio_ll">Rango de precio: </label>
+            <input class="inputs" type="range" name="precio_ll" id="precio_ll" min="100" max="500000" step="100" value="2000" />
+            <output class="precio_ll_out" for="precio_ll"></output>
+            <h2>Información Trabajo en suspensión</h2>
+            <label class="text" for="marca_carr">Marca: </label>
+            <input class="inputs" type="text" name="marca_carr" id="marca_carr" placeholder="ej. Nissan">
+            <label class="text" for="modelo">Modelo: </label>
+            <input class="inputs" type="text" name="modelo" id="modelo" placeholder="ej. 2003" multiple>
+            <label class="text" for="año">Año: </label>
+            <input class="inputs" type="text" name="año" id="año" placeholder="ej. Tsuru" multiple>
+            <label class="text" for="piezas">Piezas a cambiar: </label>
+            <input class="inputs_largo" type="text" name="piezas" id="piezas" placeholder="ej. Bieletas, Terminales, Amortiguadores, etc." multiple>
+            <h2>Información de contacto</h2>
+            <label class="text" for="nombre">Nombre(s): </label>
+            <input class="inputs" type="text" name="nombre" id="nombre" placeholder="ej. Miguel">
+            <label class="text" for="apellido">Apellido: </label>
+            <input class="inputs" type="text" name="apellido" id="apellido" placeholder="ej. Hernández">
+            <label class="text" for="email">Correo electrónico: </label>
+            <input class="inputs" type="email" name="email" id="email" placeholder="ej. Miguelher@hotmail.com">
+            <label class="text" for="numero">Teléfono: </label>
+            <input class="inputs" type="tel" name="numero" id="numero" placeholder="ej. 276 907 6123">
+        </div>
+        <div class="cont_env">
+            <a class="enviar" href="/index.html">Enviar</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <img class="footer_img" src="/IMAGES/LOGO LLANTERA DEFINITIVO.webp" alt="Logo">
+        <div class="cont_footer">
+            <h3 class="footer_subt">Ubicación:</h3>
+            <p class="footer_text">La Joya, 75120 La Joya, Pue.</p>
+            <h3 class="footer_subt">Teléfono:</h3>
+            <a class="footer_link" href="tel:+522764740863">(+52) 276 474 0863</a>
+            <h3 class="footer_subt">Correo:</h3>
+            <a class="footer_link" href="mailto:llantera_los_angeles@hotmail.com">llantera_los_angeles@hotmail.com</a>
+            <h3 class="footer_subt">Redes Sociales</h3>
+            <a class="icon" href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+            <a class="icon" href="https://x.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="icon" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+    </footer>
+
+<script src="https://kit.fontawesome.com/a8aa860a4a.js" crossorigin="anonymous"></script>
+<script src="/output.js"></script>
+</body>
+</html>
