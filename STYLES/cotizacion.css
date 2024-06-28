@@ -43,10 +43,10 @@ html{
 
 .Head{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     background-color: var(--rojo);
-    gap: 25em;
+    gap: 5em;
     padding: .5em;
     padding-left: 1em;
     padding-right: 1em;

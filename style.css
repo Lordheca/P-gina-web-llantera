@@ -75,8 +75,9 @@ html{
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 2.7rem;
+  font-size: clamp(1rem,4vw,2.7rem);
   font-weight: 1000;
+
 }
 
 @keyframes textclip {
@@ -263,11 +264,11 @@ html{
 
 .item_title{
     font-weight: var(--bold);
-    font-size: 2.3rem;
+    font-size: clamp(1rem,3vw,2.3rem);
 }
 
 .item_parr{
-    font-size: 1.4rem;
+    font-size: clamp(1rem,2vw,1.4rem);
 }
 
 .servicios{
@@ -437,4 +438,4 @@ html{
 .card:hover > .back
 {
     transform: perspective(600px) rotateY(0deg);
-}
+} 
